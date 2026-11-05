@@ -1,0 +1,13 @@
+SANON LIFE - Projet Android pour GitHub Actions
+
+Ce dossier contient le projet Android et le workflow .github/workflows/android.yml.
+
+1. Créer un dépôt GitHub privé nommé sanon-life-android.
+2. Importer le CONTENU de ce dossier à la racine du dépôt en conservant les sous-dossiers, y compris .github/workflows.
+3. Ouvrir l'onglet Actions, choisir « Construire SANON LIFE APK », puis « Run workflow ».
+4. Après une compilation réussie, ouvrir le workflow et télécharger l'artifact « SANON-LIFE-APK-test ».
+5. Extraire le ZIP de l'artifact et installer app-debug.apk sur Android (autoriser l'installation depuis la source choisie si Android le demande).
+
+IMPORTANT : il s'agit d'un APK de TEST signé avec une clé de débogage, et NON d'un AAB prêt à publier sur Play Store.
+Ne pas mettre de données sensibles dans l'application avant audit de sécurité.
+Sur téléphone seul, l'importation de dossiers imbriqués dans GitHub via navigateur peut être difficile : demander un accompagnement avant de transmettre un jeton d'accès personnel. Ne jamais partager un token ou mot de passe.
